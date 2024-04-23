@@ -16,8 +16,12 @@ x3 = x%10
 print(x1,x2,x3)
 
 #2
-a = float(input("Введите координату А:"))
-b = float(input("Введите координату В:"))
-
-
+import math
+x = float(input("Введите x координату А:"))
+y= float(input("Введите y координату А:"))
+x2 = float(input("Введите x координату В:"))
+y2 = float(input("Введите y координату В:"))
+#формула?
+length = math.sqrt((x2-x)**2+(y2-y)**2)
+print(length)
 
