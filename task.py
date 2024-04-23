@@ -7,5 +7,6 @@ print(" жжжжж")
 print("жжжжжжж")
 print(" HH HH")
 print(" ZZZZZ")
+
 b=1+5j
 print(type(b))
