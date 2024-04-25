@@ -8,4 +8,15 @@ print(l)
 
 l.sort()
 print(l)
-string
+
+def function (n): 
+    a = add(10,15)
+return a 
+#import functions as fn
+from functions import factorial
+print(factorial(6))
+
+import os
+import json
+jsonfile = open('js.json',encoding='UTF-8')
+jf = jsonfile.reader(jsonfile)                
