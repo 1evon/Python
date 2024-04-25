@@ -5,4 +5,4 @@ print(data['name'])
 for i in range(1, 10): 
     string = '{"number":'+str(i)+'}'
     data = json.loads(string)
-print(data["number"])
+    print(data["number"])
